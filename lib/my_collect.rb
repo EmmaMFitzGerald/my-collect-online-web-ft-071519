@@ -5,6 +5,7 @@ def my_collect(array)
     new_array << yield(array[i].capitalize)
     i += 1
   end
+  return new_array
 end
 
 
